@@ -1,0 +1,13 @@
+  651  git remote set-url origin git@github.com:dc10873/javacoding00.git
+  652  git status
+  653  touch testgitfile.empty.00
+  654  git add testgitfile.empty.00 
+  655  git commit -m "a test blank file test; ssh"
+  656  git push origin master
+  661  git commit -m "a test blank file test; ssh"
+  662  git status
+  664  git add testgitfile.empty.00 
+  665  git commit -m "a test blank file test; ssh"
+  666  git push origin master
+  667  history |grep git
+  668  history |grep git > git.history.v01
