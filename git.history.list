@@ -1,0 +1,53 @@
+  647  sudo apt-get install git
+  648  sudo apt-get install git git-man
+  653  git init
+  667  git init
+  673  git status
+  674  git add Paf17.java 
+  675  git status
+  677  git status
+  678  git add README.md 
+  679  git status
+  685  .gitignore
+  686  vi .gitignore
+  688  vi .gitignore
+  689  git status
+  690  git add Paf17.java 
+  691  git add .gitignore 
+  692  git status
+  693  git commit -m "first commit"
+  694  git config --global user.name Dale
+  695  git config --global user.email elad@wylug.net
+  696  git commit --amend --reset-author
+  697  git remote add origin https://github.com/dc10873/javacoding00.git
+  698  git push origin master
+  702  git commit -m 'New file, empty'
+  703  git add new_file.list 
+  704  git commit -m 'New file, empty'
+  705  git push origin master
+  706  git remote add origin https://github.com/dc10873/javacoding00.git
+  707  git push origin master https://github.com/dc10873/javacoding00.git
+  708  git push origin master
+  710  git log
+  713  history|grep git
+  716  git init
+  717  rm -fr .git
+  719  git init
+  732  history|grep git
+  733  git status
+  734  git add .
+  735  git commit -m 'Blackbox Original Configs'
+  736  git remote add origin master git@github.com:dc10873/blackbox.git
+  737  git remote add origin git@github.com:dc10873/blackbox.git
+  738  git push origin master
+  741  git add README.md 
+  742  git status
+  743  git add syntax.txt 
+  744  vi .gitignore
+  745  git add .
+  746  git status
+  748  git push origin master
+  749  git commit -m 'Necessary changes to README.md; added files'
+  750  git push origin master
+  751  git status
+  754  history |grep git > git.history.list
